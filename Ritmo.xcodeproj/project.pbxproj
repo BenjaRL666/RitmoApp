@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0361CFF8C621DE32849CEE54 /* HabitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5837B1C35050A23356711589 /* HabitViewModel.swift */; };
+		11263C50E7C39DDD47015C58 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E667FE70D7B53844E0933452 /* DashboardView.swift */; };
+		12DA0849D1E75532730E4210 /* HabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD89B7C76323E4159C6BA5F2 /* HabitDetailView.swift */; };
+		225BD0E4CB478A00627FCAA1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87D0C753162C0D74AADB014 /* SettingsView.swift */; };
+		4BA2E971A4FFDC7383CA076C /* HabitReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5C010231E595B28348A66E /* HabitReminderView.swift */; };
+		5302D967FC0443251FB147D0 /* Heatmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED8AE84539C59FACEACF048 /* Heatmap.swift */; };
+		600CE564EF0403C4DE3CE7F1 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F23729D303C0090A156CFBA /* NotesView.swift */; };
+		7A61E90D927211637C3689D2 /* CreateHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12099AA8D6FC22F1B5DA7F7C /* CreateHabitView.swift */; };
+		88BF8E7482FB9EBCEC79A7CF /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DE754CCF8F52F136D94266 /* Theme.swift */; };
+		BBD77584D7930B60971CBB98 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0AFB6B845C6A8250336966 /* RootView.swift */; };
+		C2968321EF4D84270E625F16 /* ReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590D69B73A0FC7343AC865DB /* ReminderService.swift */; };
+		CAE2A46A190658BFD506FA6B /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723445525811C33BD6D810CC /* StatisticsView.swift */; };
+		E3CE46966DD1C9B6FC562877 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAC47C111DF1A989CEE551D /* CalendarView.swift */; };
+		E8E9BD9F652FBC066205726D /* RitmoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375AA4BA7F4AD334A28080C /* RitmoApp.swift */; };
+		EC24EA292D71BD1917D0F39A /* HabitMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F11586582A1A8678B3B875C /* HabitMetrics.swift */; };
+		F0AF40969C9E2A06C8E9AA5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F4A7BDCF0869FAAF2B76B7 /* Assets.xcassets */; };
+		F92FBCF80819640D489CCCDC /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194403F9D961F285475AEAEE /* Habit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F11586582A1A8678B3B875C /* HabitMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitMetrics.swift; sourceTree = "<group>"; };
+		12099AA8D6FC22F1B5DA7F7C /* CreateHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHabitView.swift; sourceTree = "<group>"; };
+		13E7C317FBC2BB8AC8EF15F1 /* Ritmo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Ritmo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		194403F9D961F285475AEAEE /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		4E0AFB6B845C6A8250336966 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		5837B1C35050A23356711589 /* HabitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewModel.swift; sourceTree = "<group>"; };
+		590D69B73A0FC7343AC865DB /* ReminderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderService.swift; sourceTree = "<group>"; };
+		6BAC47C111DF1A989CEE551D /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		6ED8AE84539C59FACEACF048 /* Heatmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heatmap.swift; sourceTree = "<group>"; };
+		723445525811C33BD6D810CC /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		8F23729D303C0090A156CFBA /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		9375AA4BA7F4AD334A28080C /* RitmoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RitmoApp.swift; sourceTree = "<group>"; };
+		B2F4A7BDCF0869FAAF2B76B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4DE754CCF8F52F136D94266 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BD89B7C76323E4159C6BA5F2 /* HabitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailView.swift; sourceTree = "<group>"; };
+		E667FE70D7B53844E0933452 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F87D0C753162C0D74AADB014 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FE5C010231E595B28348A66E /* HabitReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitReminderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0DD49EBAA20ABEC92218F0F2 /* Ritmo */ = {
+			isa = PBXGroup;
+			children = (
+				94ED99B0263DD2C7C3DD4120 /* App */,
+				B4069A25B4C72F058A1FCEE2 /* DesignSystem */,
+				41FD31E8A19DF6F8FDA2EE75 /* Models */,
+				9323CCB54D2E2FD1B02290A9 /* Resources */,
+				39D5725B5C31D6FB7A60CCD6 /* Services */,
+				DF17B1401BB1096B67E5F61E /* ViewModels */,
+				D913A35A67D59E9E388336C4 /* Views */,
+			);
+			path = Ritmo;
+			sourceTree = "<group>";
+		};
+		39D5725B5C31D6FB7A60CCD6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0F11586582A1A8678B3B875C /* HabitMetrics.swift */,
+				590D69B73A0FC7343AC865DB /* ReminderService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		41FD31E8A19DF6F8FDA2EE75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				194403F9D961F285475AEAEE /* Habit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		730FEB13634EF889AE7F1F96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13E7C317FBC2BB8AC8EF15F1 /* Ritmo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9323CCB54D2E2FD1B02290A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2F4A7BDCF0869FAAF2B76B7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		94ED99B0263DD2C7C3DD4120 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9375AA4BA7F4AD334A28080C /* RitmoApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B4069A25B4C72F058A1FCEE2 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				6ED8AE84539C59FACEACF048 /* Heatmap.swift */,
+				B4DE754CCF8F52F136D94266 /* Theme.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		C3E911379D0AFDB456C221AF = {
+			isa = PBXGroup;
+			children = (
+				0DD49EBAA20ABEC92218F0F2 /* Ritmo */,
+				730FEB13634EF889AE7F1F96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D913A35A67D59E9E388336C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6BAC47C111DF1A989CEE551D /* CalendarView.swift */,
+				12099AA8D6FC22F1B5DA7F7C /* CreateHabitView.swift */,
+				E667FE70D7B53844E0933452 /* DashboardView.swift */,
+				BD89B7C76323E4159C6BA5F2 /* HabitDetailView.swift */,
+				FE5C010231E595B28348A66E /* HabitReminderView.swift */,
+				8F23729D303C0090A156CFBA /* NotesView.swift */,
+				4E0AFB6B845C6A8250336966 /* RootView.swift */,
+				F87D0C753162C0D74AADB014 /* SettingsView.swift */,
+				723445525811C33BD6D810CC /* StatisticsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF17B1401BB1096B67E5F61E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5837B1C35050A23356711589 /* HabitViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2B419552430A5808F85F1FD /* Ritmo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34654490211D1246B4255EE2 /* Build configuration list for PBXNativeTarget "Ritmo" */;
+			buildPhases = (
+				CD0B1D9B3FDA4B3748EE8EF9 /* Sources */,
+				A1AD88A3A9DBBE3E66BC97E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ritmo;
+			packageProductDependencies = (
+			);
+			productName = Ritmo;
+			productReference = 13E7C317FBC2BB8AC8EF15F1 /* Ritmo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAA628CDBE68A08E02E5C27B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 4BA10D79AD6FDAB35EFDE959 /* Build configuration list for PBXProject "Ritmo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C3E911379D0AFDB456C221AF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 730FEB13634EF889AE7F1F96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2B419552430A5808F85F1FD /* Ritmo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1AD88A3A9DBBE3E66BC97E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AF40969C9E2A06C8E9AA5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD0B1D9B3FDA4B3748EE8EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CE46966DD1C9B6FC562877 /* CalendarView.swift in Sources */,
+				7A61E90D927211637C3689D2 /* CreateHabitView.swift in Sources */,
+				11263C50E7C39DDD47015C58 /* DashboardView.swift in Sources */,
+				F92FBCF80819640D489CCCDC /* Habit.swift in Sources */,
+				12DA0849D1E75532730E4210 /* HabitDetailView.swift in Sources */,
+				EC24EA292D71BD1917D0F39A /* HabitMetrics.swift in Sources */,
+				4BA2E971A4FFDC7383CA076C /* HabitReminderView.swift in Sources */,
+				0361CFF8C621DE32849CEE54 /* HabitViewModel.swift in Sources */,
+				5302D967FC0443251FB147D0 /* Heatmap.swift in Sources */,
+				600CE564EF0403C4DE3CE7F1 /* NotesView.swift in Sources */,
+				C2968321EF4D84270E625F16 /* ReminderService.swift in Sources */,
+				E8E9BD9F652FBC066205726D /* RitmoApp.swift in Sources */,
+				BBD77584D7930B60971CBB98 /* RootView.swift in Sources */,
+				225BD0E4CB478A00627FCAA1 /* SettingsView.swift in Sources */,
+				CAE2A46A190658BFD506FA6B /* StatisticsView.swift in Sources */,
+				88BF8E7482FB9EBCEC79A7CF /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E36C98C5AA97B9A8656D5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ritmo;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.matiascastro.ritmo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F366E9A73AB6B4414B07BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ritmo;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.matiascastro.ritmo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D0B40AD3BB9519FDD5D10FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A84033222BDAEA27CC0FB76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34654490211D1246B4255EE2 /* Build configuration list for PBXNativeTarget "Ritmo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F366E9A73AB6B4414B07BB9 /* Debug */,
+				1E36C98C5AA97B9A8656D5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4BA10D79AD6FDAB35EFDE959 /* Build configuration list for PBXProject "Ritmo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84033222BDAEA27CC0FB76F /* Debug */,
+				9D0B40AD3BB9519FDD5D10FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAA628CDBE68A08E02E5C27B /* Project object */;
+}
